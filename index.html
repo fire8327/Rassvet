@@ -9,16 +9,16 @@
     <title>Главная</title>
 </head>
 <body class="bg-[url('Assets/Images/body/bg.jpg')] bg-contain">
-    <header class="w-full bg-[#282828] py-2">
+    <header class="w-full bg-[#282828] py-2 fixed">
         <nav class="container mx-auto flex items-center justify-between">
             <p class="text-yellow-500 text-3xl uppercase">
                 репетицонная база <span class="font-bold">RASSVET <br> SOUND</span> в зеленограде
             </p>
             <div class="flex items-center gap-12 uppercase text-white text-xl">
-                <a href="">услуги</a>
-                <a href="">отзывы</a>
-                <a href="">цены</a>
-                <a href="">контакты</a>   
+                <a href="#services">услуги</a>
+                <a href="#feedback">отзывы</a>
+                <a href="#price">цены</a>
+                <a href="#contacts">контакты</a>   
                 <a href="tel:+7 (926) 543-21-32" class="text-yellow-500 border-2 border-yellow-500 p-2">
                     +7 (926) 543-21-32
                 </a>             
@@ -35,7 +35,7 @@
         </div>  
     </div>
 
-    <div class="w-full bg-black py-12">
+    <div class="w-full bg-black py-12" id="services">
         <div class="container mx-auto flex items-center justify-center gap-12">
             <div class="flex flex-col items-center justify-center py-8 px-3 gap-16 text-center text-2xl uppercase border-2 border-yellow-500">
                 <p class="text-white">студия <br> звукозаписи</p>
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <div class="container mx-auto flex flex-col gap-20 text-white text-center py-12">
+    <div class="container mx-auto flex flex-col gap-20 text-white text-center py-12" id="feedback">
         <p class="text-3xl uppercase font-semibold">отзывы</p>
         <div class="flex items-center justify-between">
             <div class="flex flex-col border border-yellow-500 w-fit justify-between px-4 py-8 bg-black h-[600px]">
@@ -112,7 +112,7 @@
         </div>
     </div>
 
-    <div class="container mx-auto flex flex-col gap-20 text-white py-12">
+    <div class="container mx-auto flex flex-col gap-20 text-white py-12" id="price">
         <p class="text-3xl uppercase text-center font-semibold">цены</p>
         <div class="flex justify-between text-lg">
             <div class="flex flex-col gap-10">
@@ -149,7 +149,7 @@
         </div>
     </div>
 
-    <div class="w-full bg-black">
+    <div class="w-full bg-black" id="contacts">
         <div class="container mx-auto flex flex-col text-white py-12 uppercase">
             <p class="text-3xl text-center font-semibold">контакты и адрес</p>
             <p class="text-xl text-center mt-1">свяжитесь с нами любым доступным способом</p>
